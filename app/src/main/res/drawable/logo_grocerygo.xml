@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    
+    <!-- Shopping cart (translated +3 on X to center it) -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M17,20c1.1,0 2,0.9 2,2s-0.9,2 -2,2s-2,-0.9 -2,-2S15.9,20 17,20zM31,20c1.1,0 2,0.9 2,2s-0.9,2 -2,2s-2,-0.9 -2,-2S29.9,20 31,20zM13.22,12l2.56,6h13.44l2.56,-6H13.22zM11,10h21.4c1.25,0 2.4,1.06 2.15,2.44l-2.56,6C31.68,19.33 31.11,20 30.22,20H17.78c-0.89,0 -1.46,-0.67 -1.77,-1.56L11.53,8H9V6h4.27l0.94,2H11z"/>
+
+    <!-- Leaf decoration -->
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M32,12c0,-3 -2,-5 -5,-5c-2,0 -3,1 -4,2c1,1 2,2 3,4C28,13 30,12.5 32,12z"/>
+        
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M27,7c0.5,0.5 1,1.2 1.5,2c-0.5,1 -1.2,1.8 -2,2.5C26,10 26,8.5 27,7z"/>
+</vector>

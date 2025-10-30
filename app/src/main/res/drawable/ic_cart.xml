@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Shopping cart (extracted for reuse) -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M14,20c1.1,0 2,0.9 2,2s-0.9,2 -2,2s-2,-0.9 -2,-2S12.9,20 14,20zM28,20c1.1,0 2,0.9 2,2s-0.9,2 -2,2s-2,-0.9 -2,-2S26.9,20 28,20zM10.22,12l2.56,6h13.44l2.56,-6H10.22zM8,10h21.4c1.25,0 2.4,1.06 2.15,2.44l-2.56,6C28.68,19.33 28.11,20 27.22,20H14.78c-0.89,0 -1.46,-0.67 -1.77,-1.56L8.53,8H6V6h4.27l0.94,2H8z"/>
+
+</vector>
+

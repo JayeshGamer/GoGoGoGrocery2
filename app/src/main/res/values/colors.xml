@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This file now contains legacy and compatibility colors only -->
+    <!-- Main colors are defined in colors_modern.xml -->
+
+    <!-- Card Colors (variations not in modern) -->
+    <color name="card_background_elevated">#FFFFFF</color>
+
+    <!-- Legacy colors for backward compatibility -->
+    <color name="system_blue">#2196F3</color>
+    <color name="system_blue_dark">#1976D2</color>
+    <color name="system_red">#D32F2F</color>
+    <color name="system_gray">#9E9E9E</color>
+    <color name="system_gray2">#BDBDBD</color>
+    <color name="system_gray3">#E0E0E0</color>
+    <color name="system_gray4">#EEEEEE</color>
+    <color name="system_gray5">#F5F5F5</color>
+    <color name="system_gray6">#FAFAFA</color>
+    <color name="background_grouped_primary">#F5F5F5</color>
+    <color name="background_grouped_secondary">#FFFFFF</color>
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="primary_gradient_start">#2E7D32</color>
+    <color name="primary_gradient_end">#66BB6A</color>
+    
+    <!-- Additional compatibility colors -->
+    <color name="fill_secondary">#F5F5F5</color>
+    <color name="fill_tertiary">#F0F0F0</color>
+    <color name="border_focus">#2E7D32</color>
+    <color name="accent_yellow">#FFC107</color>
+    <color name="separator_non_opaque">#30000000</color>
+    <color name="separator_opaque">#E0E0E0</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="system_orange">#FF9800</color>
+    <color name="primary_color">#2E7D32</color>
+    <color name="error_color">#F44336</color>
+    <color name="light_grey">#BDBDBD</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="ripple">#20000000</color>
+    <color name="star_color">#FFC107</color>
+    <color name="success_gradient_start">#4CAF50</color>
+    <color name="success_gradient_end">#81C784</color>
+    <color name="shadow">#1A000000</color>
+    <color name="status_success">#4CAF50</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_error">#F44336</color>
+    <color name="status_info">#2196F3</color>
+
+    <!-- Alias to modern colors for backward compatibility -->
+    <!-- These point to colors_modern.xml definitions -->
+</resources>

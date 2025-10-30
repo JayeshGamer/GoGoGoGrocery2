@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern GroceryGo Theme -->
+    <style name="Theme.GroceryGo.Modern" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/accent_blue</item>
+        <item name="colorSecondaryVariant">@color/accent_purple</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/background_secondary</item>
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Error Colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Status Bar & Navigation Bar -->
+        <item name="android:statusBarColor">@color/primary_green</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Window Properties -->
+        <item name="android:windowBackground">@color/background_secondary</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Material Shape Appearances -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.GroceryGo.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.GroceryGo.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.GroceryGo.LargeComponent</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.GroceryGo.Display</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.GroceryGo.Headline.Large</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.GroceryGo.Headline.Medium</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.GroceryGo.Headline.Small</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.GroceryGo.Body.Large</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.GroceryGo.Body.Medium</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.GroceryGo.Label.Medium</item>
+
+        <!-- Button Styles -->
+        <item name="materialButtonStyle">@style/Widget.GroceryGo.Button.Primary</item>
+
+        <!-- Card Styles -->
+        <item name="materialCardViewStyle">@style/Widget.GroceryGo.Card</item>
+    </style>
+
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.GroceryGo.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.GroceryGo.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.GroceryGo.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.GroceryGo.Splash" parent="Theme.GroceryGo.Modern">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/primary_green</item>
+    </style>
+</resources>
+

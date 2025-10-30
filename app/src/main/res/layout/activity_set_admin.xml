@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<TextView
+		android:id="@+id/tvCurrentUser"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Current User:"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:paddingBottom="12dp" />
+
+	<Button
+		android:id="@+id/btnSetAdmin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Set as Admin"
+		android:layout_marginBottom="8dp" />
+
+	<Button
+		android:id="@+id/btnSetCustomer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Set as Customer"
+		android:layout_marginBottom="8dp" />
+
+	<Button
+		android:id="@+id/btnCheckRole"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Check Role" />
+
+</LinearLayout>
+

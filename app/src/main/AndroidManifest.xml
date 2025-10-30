@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Location permissions required for 'Use Current Address' feature -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Package visibility queries to fix Play Services broker SecurityException -->
+    <queries>
+        <package android:name="com.google.android.gms" />
+        <package android:name="com.google.android.gsf" />
+    </queries>
+
+    <application
+        android:name="com.grocerygo.GroceryGoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_grocerygo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_grocerygo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDxdBIiRICIONEz4l1fTcaZ9VPt3LD2VjM" />
+
+        <activity
+            android:name="com.grocerygo.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <!-- Google Play Services Metadata -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- Splash Screen - Launch Activity -->
+        <activity
+            android:name="com.grocerygo.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Authentication Activities -->
+        <activity
+            android:name="com.grocerygo.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.grocerygo.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" /> <!-- Main Activity -->
+        <activity
+            android:name="com.grocerygo.MainActivity"
+            android:exported="false" /> <!-- Home Activity (main app screen) -->
+        <activity
+            android:name="com.grocerygo.HomeActivity"
+            android:exported="false" /> <!-- Additional screens reachable from Home -->
+        <activity
+            android:name="com.grocerygo.CategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.OrderConfirmationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.OrderDetailActivity"
+            android:exported="false" /> <!-- Profile related activities -->
+        <activity
+            android:name="com.grocerygo.AddressBookActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.WishlistActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.HelpActivity"
+            android:exported="false" /> <!-- Wallet & Payment Activities -->
+        <activity
+            android:name="com.grocerygo.WalletActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.PaymentSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.GiftCardActivity"
+            android:exported="false" /> <!-- Settings & Privacy Activities -->
+        <activity
+            android:name="com.grocerygo.AccountPrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.NotificationPreferencesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.grocerygo.AboutUsActivity"
+            android:exported="false" /> <!-- Database Populator Activity -->
+        <activity
+            android:name="com.grocerygo.DatabasePopulatorActivity"
+            android:exported="false" /> <!-- Admin Panel Activity -->
+        <activity
+            android:name="com.grocerygo.AdminPanelActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

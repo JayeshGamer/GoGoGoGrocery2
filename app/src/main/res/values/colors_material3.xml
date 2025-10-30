@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Color System -->
+    <!-- Only colors unique to MD3 that don't conflict with existing color files -->
+
+    <!-- Primary Colors -->
+    <color name="primary">#2E7D32</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#C8E6C9</color>
+    <color name="onPrimaryContainer">#1B5E20</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#5C6BC0</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="secondaryContainer">#E8EAF6</color>
+    <color name="onSecondaryContainer">#3949AB</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#FF9800</color>
+    <color name="onTertiary">#FFFFFF</color>
+    <color name="tertiaryContainer">#FFE0B2</color>
+    <color name="onTertiaryContainer">#E65100</color>
+
+    <!-- Error Colors (using onError variants only, base error exists in colors_modern.xml) -->
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#FFEBEE</color>
+    <color name="onErrorContainer">#C62828</color>
+
+    <!-- Success Colors (using "on" variants only, base success exists in colors_modern.xml) -->
+    <color name="onSuccess">#FFFFFF</color>
+    <color name="successContainer">#E8F5E9</color>
+    <color name="onSuccessContainer">#2E7D32</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="onBackground">#212121</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#212121</color>
+    <color name="surfaceVariant">#F5F5F5</color>
+    <color name="onSurfaceVariant">#757575</color>
+    <color name="surfaceTint">#2E7D32</color>
+
+    <!-- Outline Colors -->
+    <color name="outline">#E0E0E0</color>
+    <color name="outlineVariant">#EEEEEE</color>
+
+    <!-- Inverse Colors -->
+    <color name="inverseSurface">#212121</color>
+    <color name="inverseOnSurface">#FFFFFF</color>
+    <color name="inversePrimary">#81C784</color>
+
+    <!-- Shadow & Scrim (scrim only, shadow exists in colors.xml) -->
+    <color name="scrim">#000000</color>
+</resources>

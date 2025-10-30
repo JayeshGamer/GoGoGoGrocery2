@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GroceryGo</string>
+
+    <!-- Common -->
+    <string name="search_hint">Search Your Groceries</string>
+    <string name="location">Location</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to Cart</string>
+
+    <!-- Home Screen -->
+    <string name="find_daily_grocery">Find Your Daily Grocery</string>
+    <string name="stores_to_save">Stores to help you save</string>
+    <string name="show_all">Show all</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="get_discount">Get 40% OFF</string>
+    <string name="first_order_discount">On your first order from app</string>
+
+    <!-- Auth -->
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="your_name">Your Name</string>
+    <string name="email_address">Email address</string>
+    <string name="create_password">Create a password</string>
+    <string name="other_signup_options">Other sign up options</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="signup_subtitle">To get more advantages sign up your accounts by filling informations</string>
+
+    <!-- Cart -->
+    <string name="order_summary">Order Summary</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="discount">Discount</string>
+    <string name="total">Total</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="empty_cart_message">Add some products to get started</string>
+    <string name="free_delivery">FREE</string>
+
+    <!-- Product Details -->
+    <string name="product_details">Product Details</string>
+    <string name="related_products">Related Products</string>
+    <string name="read_more">Read More</string>
+    <string name="total_price">Total Price</string>
+    <string name="details">Details</string>
+
+    <!-- Splash -->
+    <string name="tagline">Fresh Groceries at Your Doorstep</string>
+    <string name="version">v1.0.0</string>
+
+    <!-- New strings for Checkout and UI improvements -->
+    <string name="loading_address">Loading address...</string>
+    <string name="view_less">View less</string>
+    <string name="view_all_items">View all items</string>
+    <string name="one_item">1 item</string>
+    <string name="items_format">%d items</string>
+    <string name="unit_format">/%s</string>
+
+    <!-- Shortlists for states and cities in India -->
+    <string-array name="india_states_shortlist">
+        <item>Maharashtra</item>
+        <item>Delhi</item>
+        <item>Karnataka</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Tamil Nadu</item>
+        <item>Gujarat</item>
+        <item>Rajasthan</item>
+        <item>Madhya Pradesh</item>
+        <item>Bihar</item>
+        <item>Telangana</item>
+        <item>Andhra Pradesh</item>
+        <item>Kerala</item>
+        <item>Punjab</item>
+        <item>Haryana</item>
+        <item>Jharkhand</item>
+        <item>Assam</item>
+        <item>Odisha</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+    </string-array>
+
+    <string-array name="india_cities_shortlist">
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Bengaluru</item>
+        <item>Kolkata</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+        <item>Pune</item>
+        <item>Ahmedabad</item>
+        <item>Jaipur</item>
+        <item>Indore</item>
+        <item>Agra</item>
+        <item>Lucknow</item>
+        <item>Surat</item>
+        <item>Thane</item>
+        <item>Nagpur</item>
+    </string-array>
+
+    <!-- Google Maps / Geocoding API key for reverse geocoding current location -->
+    <string name="google_maps_api_key">AIzaSyDxdBIiRICIONEz4l1fTcaZ9VPt3LD2VjM</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

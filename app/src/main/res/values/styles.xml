@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Premium Apple-Inspired Application Theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/system_blue</item>
+        <item name="colorPrimaryVariant">@color/system_blue_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/primary_green</item>
+        <item name="colorSecondaryVariant">@color/primary_green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/background_secondary</item>
+        <item name="colorSurface">@color/surface_primary</item>
+        <item name="colorOnSurface">@color/label_primary</item>
+        <item name="colorError">@color/system_red</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:statusBarColor">@color/background_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/background_primary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    
+    <!-- Apple HIG Typography System -->
+    <style name="TextAppearance.LargeTitle">
+        <item name="android:textSize">@dimen/text_size_large_title</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <style name="TextAppearance.Title1">
+        <item name="android:textSize">@dimen/text_size_title_1</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextAppearance.Title2">
+        <item name="android:textSize">@dimen/text_size_title_2</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextAppearance.Title3">
+        <item name="android:textSize">@dimen/text_size_title_3</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="TextAppearance.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="TextAppearance.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    
+    <style name="TextAppearance.Callout">
+        <item name="android:textSize">@dimen/text_size_callout</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.Subhead">
+        <item name="android:textSize">@dimen/text_size_subhead</item>
+        <item name="android:textColor">@color/label_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.Footnote">
+        <item name="android:textSize">@dimen/text_size_footnote</item>
+        <item name="android:textColor">@color/label_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.Caption1">
+        <item name="android:textSize">@dimen/text_size_caption_1</item>
+        <item name="android:textColor">@color/label_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="TextAppearance.Caption2">
+        <item name="android:textSize">@dimen/text_size_caption_2</item>
+        <item name="android:textColor">@color/label_tertiary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <!-- Legacy text styles for compatibility -->
+    <style name="TextAppearance.Title">
+        <item name="android:textSize">@dimen/text_size_title_1</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextAppearance.SubHeader">
+        <item name="android:textSize">@dimen/text_size_title_2</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextAppearance.Caption">
+        <item name="android:textSize">@dimen/text_size_footnote</item>
+        <item name="android:textColor">@color/label_secondary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <!-- Root TextAppearance style for backward compatibility -->
+    <style name="TextAppearance">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/label_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    
+    <!-- Premium Apple-Inspired Button Styles -->
+    <style name="Button.Primary">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/button_primary_premium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">@dimen/elevation_s</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_l</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="Button.Secondary">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/bg_success_gradient</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">@dimen/elevation_s</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_l</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="Button.Outline">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/button_outline_premium</item>
+        <item name="android:textColor">@color/system_blue</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_l</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="Button.Text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:textColor">@color/system_blue</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_m</item>
+        <item name="android:paddingVertical">@dimen/spacing_s</item>
+        <item name="android:minHeight">@dimen/touch_target_minimum</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <!-- Compatibility shim: define FilledTonal Button style if library style is missing
+         Some versions of the Material library don't expose Widget.Material3.Button.FilledTonal
+         at AAPT time in all configurations. Provide a minimal local definition so layouts
+         referencing it can link. It intentionally inherits from the Material3 Button base
+         so appearance remains consistent when the library provides the full style. -->
+    <style name="Widget.Material3.Button.FilledTonal" parent="Widget.Material3.Button">
+        <!-- Intentionally minimal: rely on theme for colors and shapes. Add overrides below
+             only if you need to tweak padding/corner radius specifically for the project. -->
+    </style>
+    
+    <!-- Input Field Styles -->
+    <style name="EditText.Standard" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+    </style>
+
+    <!-- Global EditText Style for all text inputs -->
+    <style name="Widget.GroceryGo.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Card.Product" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">@dimen/padding_medium</item>
+    </style>
+    
+    <style name="Card.Category" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">@dimen/padding_medium</item>
+    </style>
+    
+    <!-- Toolbar Style -->
+    <style name="Toolbar.Standard" parent="Widget.Material3.Toolbar">
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:background">@color/primary_green</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:theme">@style/ThemeOverlay.Material3.Dark.ActionBar</item>
+    </style>
+    
+    <!-- Search Bar Style -->
+    <style name="SearchBar.Standard">
+        <item name="android:layout_height">@dimen/search_bar_height</item>
+        <item name="android:background">@drawable/search_bar_background</item>
+        <item name="android:drawableStart">@drawable/ic_search</item>
+        <item name="android:drawablePadding">@dimen/padding_medium</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:hint">Search for products...</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <!-- Alias so layouts referencing @style/SearchBar still resolve -->
+    <style name="SearchBar">
+        <item name="android:layout_height">@dimen/search_bar_height</item>
+        <item name="android:background">@drawable/search_bar_background</item>
+        <item name="android:drawableStart">@drawable/ic_search</item>
+        <item name="android:drawablePadding">@dimen/padding_medium</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:hint">Search for products...</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+
+    <!-- Price Text Styles -->
+    <style name="TextAppearance.Price.Current">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextAppearance.Price.Original">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Alias to support @style/TextAppearance.Price references -->
+    <style name="TextAppearance.Price">
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textColor">@color/primary_green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Badge Styles -->
+    <style name="Badge.Discount">
+        <item name="android:background">@drawable/badge_discount_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+    <!-- Alias to support @style/Badge references -->
+    <style name="Badge">
+        <item name="android:background">@drawable/badge_discount_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+    
+    <!-- Root Button style for backward compatibility -->
+    <style name="Button">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/button_primary_premium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:elevation">@dimen/elevation_s</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_l</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+</resources>

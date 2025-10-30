@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Color Palette - Minimalist & Clean -->
+
+    <!-- Primary Colors - Refined Green Palette -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#4CAF50</color>
+    <color name="accent_green">#66BB6A</color>
+    <color name="bright_green">#43A047</color>
+
+    <!-- Neutral Tones - Core of Minimalist Design -->
+    <color name="neutral_50">#FAFAFA</color>
+    <color name="neutral_100">#F5F5F5</color>
+    <color name="neutral_200">#EEEEEE</color>
+    <color name="neutral_300">#E0E0E0</color>
+    <color name="neutral_400">#BDBDBD</color>
+    <color name="neutral_500">#9E9E9E</color>
+    <color name="neutral_600">#757575</color>
+    <color name="neutral_700">#616161</color>
+    <color name="neutral_800">#424242</color>
+    <color name="neutral_900">#212121</color>
+
+    <!-- Subtle Accent Colors -->
+    <color name="accent_blue">#5C6BC0</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_purple">#7E57C2</color>
+    <color name="accent_teal">#26A69A</color>
+
+    <!-- Background Colors - Neutral & Calming -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#FAFAFA</color>
+    <color name="background_tertiary">#F5F5F5</color>
+    <color name="background_light_green">#F1F8F4</color>
+    <color name="background_cream">#FFF9E6</color>
+    <color name="background_light_blue">#F3F7FB</color>
+    <color name="background_light_pink">#FFF5F5</color>
+
+    <!-- Card Colors - Category Specific (Subtle) -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_elevated">#FFFFFF</color>
+    <color name="card_vegetables">#E8F5E9</color>
+    <color name="card_fruits">#FFF3E0</color>
+    <color name="card_meat">#FFEBEE</color>
+    <color name="card_dairy">#E3F2FD</color>
+    <color name="card_bakery">#FFF8E1</color>
+    <color name="card_oil">#FFFDE7</color>
+
+    <!-- Text Colors - Modern Hierarchy -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <color name="text_quaternary">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_disabled">#E0E0E0</color>
+
+    <!-- Semantic Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#81C784</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFB74D</color>
+    <color name="error">#F44336</color>
+    <color name="error_light">#EF5350</color>
+    <color name="error_red">#F44336</color>
+    <color name="info">#2196F3</color>
+    <color name="info_light">#64B5F6</color>
+
+    <!-- System Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="orange">#FF9800</color>
+    <color name="yellow">#FFC107</color>
+    <color name="secondary_blue">#5C6BC0</color>
+    <color name="transparent">#00000000</color>
+    <color name="glass_effect">#40FFFFFF</color>
+
+    <!-- Divider & Border Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="divider_light">#EEEEEE</color>
+    <color name="border">#E0E0E0</color>
+    <color name="border_light">#F5F5F5</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40000000</color>
+    <color name="overlay_white">#80FFFFFF</color>
+
+    <!-- Shadow Colors -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_medium">#33000000</color>
+    <color name="shadow_dark">#4D000000</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#2E7D32</color>
+    <color name="gradient_end">#43A047</color>
+    <color name="gradient_accent_start">#5C6BC0</color>
+    <color name="gradient_accent_end">#7E57C2</color>
+
+    <!-- Label Colors (Status) -->
+    <color name="label_primary">#2E7D32</color>
+    <color name="label_secondary">#5C6BC0</color>
+    <color name="label_tertiary">#9E9E9E</color>
+    <color name="label_success">#4CAF50</color>
+    <color name="label_warning">#FF9800</color>
+    <color name="label_error">#F44336</color>
+
+    <!-- Order Status Colors -->
+    <color name="status_pending">#FF9800</color>
+    <color name="status_confirmed">#5C6BC0</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="status_cancelled">#F44336</color>
+</resources>
